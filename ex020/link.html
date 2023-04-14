@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Pseudo - Elementos</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .impor:visited {
+            background-color: blueviolet;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:active {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .impor::after {
+            content: '[link]';
+            
+        }
+
+        .impor::before {
+            content: '[link]';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplos de Pseudo-Elementos</h1>
+    <ul>
+        <li><a class='impor' href="pseudoclasses.html">Link do Site 1</a></li>
+        <li><a href="#">Link do Site 2</a></li>
+        <li><a href="#">Link do Site 3</a></li>
+    </ul>
+    
+</body>
+</html>
